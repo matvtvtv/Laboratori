@@ -44,11 +44,11 @@ a{
 }
 
 
-#b{grid-area: b;
+.b{grid-area: b;
   margin-left: 5vmin;
  
 }
-#c{grid-area: c;
+.c{grid-area: c;
     text-align: left;
     color: rgb(249, 249, 249);
    width: 50vw;

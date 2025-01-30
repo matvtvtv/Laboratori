@@ -15,6 +15,7 @@ h1{
 }
 
 .info-text{
+    padding : 20px;
     background-color: rgb(79, 193, 221);
     border-radius: 20px;
     font-family: 'Arial', 'Verdana', sans-serif;
@@ -22,8 +23,59 @@ h1{
     padding-left:2vw ;
 }
 
-.smartfone{
+
+img{
+
+    padding : 20px;
+    border-radius: 40px;
+}
+
+.text_smartfone{
+
+ color: rgb(249, 249, 249);
+
+}
+
+a{
+    color: rgb(249, 249, 249);
+    text-decoration: none;
+}
+
+#a{grid-area: a;
+    padding-left: 2em;
+    font-size: 30px;
+}
+#b{grid-area: b;
+    width: 10em;
+    text-align: left;
+    height: 10em;
+}
+#c{grid-area: c;
+    text-align: left;
+    padding: 10em;
+   width: 50vw;
+    height: 2vh;
+    font-size: 20px;}
+
+#d{grid-area: d;
+        text-align: right;
+        padding-right: 2em;
+        font-size: 30px;
+}
+    
+.smartfone {
     background-color: rgb(100, 79, 221);
     border-radius: 20px;
     padding-left:2vw ;
+     margin: 2em;
+    border:1px solid black;
+     display: grid;
+    grid-template-columns: auto; /* Две колонки одинаковой ширины */
+    grid-template-rows: auto; /* Высота строк будет автоматически подстраиваться под содержимое */
+     grid-template-areas: 
+     "a a"
+     "b c"
+     "d d";
+     gap: 1em;
+    padding: 1em;
 }

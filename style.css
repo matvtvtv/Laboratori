@@ -28,6 +28,8 @@ img{
 
     padding : 20px;
     border-radius: 40px;
+    width: 17vw;
+    height: 40vh;
 }
 
 .text_smartfone{
@@ -41,27 +43,19 @@ a{
     text-decoration: none;
 }
 
-#a{grid-area: a;
-    padding-left: 2em;
-    font-size: 30px;
-}
+
 #b{grid-area: b;
-    width: 10em;
-    text-align: left;
-    height: 10em;
+  margin-left: 5vmin;
+ 
 }
 #c{grid-area: c;
     text-align: left;
-    padding: 10em;
+    color: rgb(249, 249, 249);
    width: 50vw;
-    height: 2vh;
-    font-size: 20px;}
-
-#d{grid-area: d;
-        text-align: right;
-        padding-right: 2em;
-        font-size: 30px;
+    font-size: 2.5vmin;
 }
+
+
     
 .smartfone {
     background-color: rgb(100, 79, 221);
@@ -73,9 +67,7 @@ a{
     grid-template-columns: auto; /* Две колонки одинаковой ширины */
     grid-template-rows: auto; /* Высота строк будет автоматически подстраиваться под содержимое */
      grid-template-areas: 
-     "a a"
-     "b c"
-     "d d";
+     "b c";
      gap: 1em;
     padding: 1em;
 }
